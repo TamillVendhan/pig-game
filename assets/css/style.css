@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -168,4 +168,75 @@ main {
 
 .hidden {
   display: none;
+}
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 25%;
+    box-sizing: border-box;
+  }
+
+  main {
+    height: 75%;
+  }
+
+  .btn {
+    font-size: 11.5px;
+  }
+
+  .btn--how {
+    top: 18rem;
+  }
+
+  .btn--new {
+    top: 25rem;
+  }
+
+  .btn--roll {
+    top: 39rem;
+  }
+
+  .dice {
+    top: 60rem;
+  }
+
+  .modal {
+    font-size: 10px;
+    padding: none;
+    height: 95%;
+  }
+
+  .close-modal {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 20%;
+    box-sizing: border-box;
+  }
+
+  main {
+    height: 75%;
+  }
+
+  .btn {
+    font-size: 11.5px;
+  }
+
+  .btn--how {
+    top: 18rem;
+  }
+
+  .btn--new {
+    top: 25rem;
+  }
+
+  .btn--roll {
+    top: 39rem;
+  }
+
+  .dice {
+    top: 60rem;
+  }
 }
